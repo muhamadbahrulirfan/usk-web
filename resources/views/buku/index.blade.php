@@ -29,9 +29,9 @@
                                     <div class="row ml-1">
                                       <b>{{$b->judul}}</b>      
                                     </div><hr> 
-                                    <div class="row">
+                                    <div class="row justify-content-center">
                                       <a href="{{route('detail', $b->id_buku)}}">
-                                          <img style="height: 250px; object-fit: cover; object-position: center;" src="{{asset('images/'.$b->gambar)}}" class="img-thumbnail" width="90%">
+                                          <img style="height: 250px; width: 200px; object-fit: cover; object-position: center;" src="{{asset('images/'.$b->gambar)}}" class="img-thumbnail" width="90%">
                                       </a>  
                                     </div><hr>
                                     <div class="row ml-1">
